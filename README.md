@@ -60,11 +60,6 @@ cd grafos
 - Faça upload do arquivo `graph.py` e dos dados (.dat) para o ambiente.
 - Siga as instruções do notebook para executar o processamento e visualizar os resultados.
 
-### 3. Execução Local
-
-- Certifique-se de ter o Python e as bibliotecas necessárias instaladas.
-- Execute o script principal ou abra o notebook para interação.
-
 ## Instâncias de Teste
 
 Você pode utilizar as instâncias de teste fornecidas pelo professor ou encontrá-las neste repositório. Também estão disponíveis através deste [link](https://drive.google.com/file/d/1hlBu7L8OBqrwkVRRlFrVOTvBWKnqITxz/view?usp=drive_link).
