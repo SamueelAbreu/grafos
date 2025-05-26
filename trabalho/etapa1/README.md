@@ -100,7 +100,7 @@ Foram implementadas funções para calcular e exibir as seguintes métricas para
 
 ## 7. Créditos 🙋‍♂️🙋‍♀️
 
-Desenvolvido por \[NOME(S) DO(S) AUTOR(ES)] para as disciplinas GCC218 – Algoritmos em Grafos e GCC262 – Grafos e Suas Aplicações, UFLA.
+Desenvolvido por Tiago de Paula Martins e Samuel Moreira Abreu para as disciplinas GCC218 – Algoritmos em Grafos e GCC262 – Grafos e Suas Aplicações, UFLA.
 
 ---
 
