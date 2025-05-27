@@ -53,7 +53,7 @@ A Etapa 2 tem como objetivo desenvolver um **algoritmo construtivo** para gerar 
 
 1. **Execução do algoritmo:**
 
-   * Utilize o script principal (`main.py`, `etapa_02.ipynb` ou equivalente) para processar cada instância presente na pasta de dados.
+   * Utilize o script principal (`etapa_02.ipynb` ou equivalente) para processar cada instância presente na pasta de dados.
 
 2. **Geração das soluções:**
 
