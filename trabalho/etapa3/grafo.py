@@ -41,7 +41,7 @@ class CustomGraphFinal:
             self.graph[u].append((v, cost))
             self.V.add(u)
             self.V.add(v)
-
+    
     def num_vertices(self): return len(self.V)
     def num_edges(self): return len(self.edges)
     def num_arcs(self): return len(self.arcs)
