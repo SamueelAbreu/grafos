@@ -1,59 +1,36 @@
-# Trabalho Prático Final - Algoritmos em Grafos
+# Trabalho Prático - Algoritmos em Grafos
 
-Este repositório contém a implementação do Trabalho Prático Final para a disciplina **GCC262 - Grafos e suas Aplicações** da Universidade Federal de Lavras, ministrada pelo Prof. Mayron César O. Moreira.
+Este repositório contém o desenvolvimento do trabalho prático final para as disciplinas de GCC218 (Algoritmos em Grafos) e GCC262 (Grafos e suas Aplicações).
 
-## Autores
+**Autores:**
+* Samuel Moreira Abreu
+* Tiago de Paula Martins
 
-- **Tiago de Paula Martins**
-- **Samuel Moreira Abreu**
+---
 
-## Introdução
+## 1. Sobre o Projeto
 
-O objetivo deste trabalho é utilizar grafos para modelar problemas logísticos, otimizando o fluxo de bens e serviços.  
-**Conceitos principais:**
+O objetivo deste trabalho é desenvolver e otimizar algoritmos para a resolução de um problema de logística, modelado como uma variação do Problema de Roteamento de Veículos (VRP). O desafio consiste em determinar um conjunto de rotas de custo mínimo para uma frota de veículos, que devem atender a uma série de serviços requeridos (em nós, arestas e arcos de um grafo), respeitando a capacidade máxima de cada veículo.
 
-- **Nós:** Representam intersecções ou esquinas.
-- **Arestas:** Representam vias bidirecionais.
-- **Arcos:** Representam vias de mão única.
+O projeto foi dividido em três etapas principais, cada uma contida em sua respectiva pasta neste repositório.
 
-Além de construir o grafo a partir dos dados de entrada, o trabalho exige o cálculo de diversas estatísticas, como:
-- Número de vértices, arestas e arcos;
-- Densidade do grafo;
-- Componentes conectados;
-- Grau mínimo e máximo dos vértices;
-- Caminho médio, diâmetro e betweenness centrality (intermediação).
+## 2. Estrutura do Repositório
 
-## Objetivos do Projeto
+O projeto está organizado em pastas que correspondem a cada etapa do desenvolvimento:
 
-- **Modelagem:** Representar o problema utilizando estruturas de dados em grafos.
-- **Processamento:** Ler os dados e construir o grafo.
-- **Cálculo:** Gerar estatísticas e métricas importantes (Floyd-Warshall para caminhos mínimos, entre outras).
-- **Visualização:** Apresentar os resultados de forma interativa via notebook.
+* **`etapa_01/`**: Contém o código referente à primeira etapa, focada no pré-processamento dos dados, modelagem do grafo e cálculo de diversas métricas e estatísticas.
 
-## Organização dos Arquivos
+* **`etapa_02/`**: Contém a implementação da primeira versão de uma solução para o problema, através de um algoritmo construtivo.
 
-- **`graph.py`**  
-  Contém toda a lógica para leitura dos dados, construção do grafo e cálculo das estatísticas.
+* **`etapa_03/`**: Contém a versão final e otimizada do projeto. Nesta etapa, foram aplicados algoritmos de melhoria (busca local) sobre a solução inicial, além de otimizações de performance para lidar com instâncias grandes.
 
-- **`etapa1_grafos.ipynb`**  
-  Notebook interativo para:
-  - Fazer upload dos dados (instâncias de teste).
-  - Importar e utilizar o módulo `graph.py`.
-  - Exibir as métricas calculadas e visualizar o grafo (plots e gráficos).
+## 3. Como Executar a Versão Final
 
-- **`README.md`**  
-  Este arquivo, explicando a organização e como executar o projeto.
+As instruções detalhadas de configuração e execução, bem como o código final do projeto, encontram-se na pasta **`etapa_03/`**.
 
-## Como Executar
+Por favor, consulte o `README.md` dentro dessa pasta para o passo a passo completo.
 
-### 1. Clonando o Repositório
-
-Abra seu terminal e execute:
-```bash
-git clone https://github.com/depaulatiago/grafos.git
-cd grafos
-```
-
-## Instâncias de Teste
-
-Você pode utilizar as instâncias de teste fornecidas pelo professor ou encontrá-las neste repositório. Também estão disponíveis através deste [link](https://drive.google.com/file/d/1hlBu7L8OBqrwkVRRlFrVOTvBWKnqITxz/view?usp=drive_link).
+---
+**Disciplina:** GCC218 / GCC262  
+**Professor:** Prof. Mayron César O. Moreira  
+**Instituição:** Universidade Federal de Lavras (UFLA)
